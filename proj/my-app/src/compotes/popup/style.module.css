@@ -1,0 +1,22 @@
+.popup_content {
+    z-index: 2;
+    inline-size: auto;
+    block-size: auto;
+    padding: 5px;
+  
+  }
+  
+  .close_button {
+    border: none;
+    background-Color: #000000;
+    color: #ffffff;
+    inline-size: 30px;
+    block-size: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    inset-block-start: 10px;
+    inset-inline-end: 10px;
+    cursor: pointer;
+  }

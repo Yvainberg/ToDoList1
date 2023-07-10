@@ -1,0 +1,12 @@
+.paginationContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pageNumber {
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  

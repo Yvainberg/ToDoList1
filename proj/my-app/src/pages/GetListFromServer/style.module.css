@@ -1,0 +1,33 @@
+.list_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center the table vertically */
+}
+
+.list_table {
+  width: 90%; /* Adjust the table width */
+  border: 2.5px solid #000; /* Add a frame around the table */
+  border-collapse: collapse; /* Collapse the table border */
+}
+
+.list_table th,
+.list_table td {
+  padding: 10px; /* Add padding to table cells */
+}
+
+.list_table thead {
+  background-color: #0056b3; /* Light blue background for the table header */
+}
+
+.list_table tbody tr:nth-child(even) {
+  background-color: #dcdcdc; /* Darker gray background color */
+}
+
+.list_table tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White background color */
+}
+
+.list_table tbody tr td {
+  width: 20%; /* Adjust the width of each table cell */
+}
